@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Helps calculate a checksum (of various types) from various properties of an object</Description>
+    <Copyright>Justin Haygood</Copyright>
+    <PackageLicenseUrl>https://github.com/jhaygood86/ChecksummR/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jhaygood86/ChecksummR</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jhaygood86/ChecksummR.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
